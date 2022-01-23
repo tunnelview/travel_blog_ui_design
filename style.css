@@ -1,0 +1,285 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  min-height: 100vh;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: orchid;
+}
+
+button {
+  background: purple;
+  padding: 10px 20px;
+  color: white;
+  float: right;
+  /* border: 3px solid rgb(190, 187, 187, 0.589); */
+  border-radius: 5px;
+  box-shadow: 10px 10px 15px 5px black;
+}
+
+.card {
+  background: rgb(78, 72, 73);
+  /* line number 37 */
+  /* min-width: 350px; commented this out as the cards were cutting off*/
+  margin: 10px;
+  min-height: 100px;
+  color: whitesmoke;
+  padding: 20px;
+  box-shadow: 15px -10px 10px rebeccapurple;
+}
+
+/* =============== .global-msg ============= */
+
+.global-msg {
+  background: rgb(5, 5, 105);
+  color: white;
+  padding: 10px 0;
+}
+
+.global-msg .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* =============== header ============== */
+.header {
+  background: rgb(224, 68, 94);
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 32px;
+}
+.menu ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.menu ul li {
+  margin-left: 16px;
+  cursor: pointer;
+}
+.menu ul li:hover {
+  color: royalblue;
+}
+
+.logo {
+  font-family: "Lobster", cursive;
+}
+
+.menu i {
+  display: none;
+}
+
+/* ================= hero============== */
+.hero {
+  min-height: 100vh;
+  /* background: url(https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80); In the next line, the image distortion issue is sorted as the image has been coped from the assets folder */
+  background: url(assets/robert-lukeman-_RBcxo9AU-U-unsplash.jpg) no-repeat
+    center center;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  background: lightseagreen;
+  opacity: 0.9;
+  color: rgb(30, 30, 34);
+  padding: 10px 30px;
+  text-align: center;
+
+  border-radius: 5px;
+  box-shadow: 0 0 10px 5px rgb(110, 106, 106);
+}
+
+/* =========================latest post=========================== */
+
+.latest-section {
+  margin-top: 60px;
+}
+
+.latest article {
+  margin-top: 70px;
+}
+
+.latest-content {
+  display: flex;
+  flex-direction: row;
+}
+.latest {
+  width: 80%;
+}
+
+.post-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.post-content img {
+  width: 180px;
+  border: 3px solid rgba(97, 42, 42, 0.589);
+  border-radius: 5px;
+  box-shadow: 10px 10px 15px 5px;
+}
+
+.info {
+  margin: 0 20px;
+}
+
+.info date {
+  background: rgb(202, 50, 164);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  color: whitesmoke;
+}
+
+/* ================= aside=================== */
+
+.links {
+  background: rgb(131, 49, 49);
+  width: 20%;
+  border-radius: 5px;
+  padding: 32px 16px 5px;
+  color: whitesmoke;
+}
+
+.by-country {
+  margin-top: 64px;
+}
+
+/* ======================== recommendation section ================== */
+.rec {
+  margin-top: 64px;
+}
+
+.rec-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.rec-content img {
+  width: 100%;
+}
+
+/* ============================subscribe========================= */
+
+.subscribe {
+  background-color: rgb(82, 65, 173);
+  margin: 64px auto;
+  min-height: 200px;
+  border-radius: 15px 15px 15px 15px;
+  text-align: center;
+  padding-top: 32px;
+  /* border-top-left-radius:130 px; */
+}
+
+.subscribe input {
+  padding: 10px;
+  border: none;
+  line-height: 20px;
+}
+
+[type="submit"] {
+  background: crimson;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* ==========================footer========================= */
+.footer {
+  background: rgb(99, 4, 4);
+  padding: 64px 0;
+  color: whitesmoke;
+  text-align: center;
+}
+
+/* ====================== media query ==================== */
+@media (max-width: 768px) {
+  .menu {
+    height: 62px;
+  }
+
+  .menu i {
+    display: block;
+  }
+  .menu ul {
+    display: none;
+  }
+
+  .latest-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .latest {
+    width: 100%;
+  }
+
+  .links {
+    width: 100%;
+    margin-top: 48px;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .by-country {
+    margin-top: 0;
+  }
+
+  .rec-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .post-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .post-content img {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+
+  .latest article {
+    margin-top: 115px;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .subscribe form {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  .subscribe form input {
+    margin-bottom: 16px;
+  }
+}
