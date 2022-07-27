@@ -1,4 +1,4 @@
-# travel_blog_ui_design_Shibn
+# Travel_Blog_UI_Design_Shibin
 
 # Technical Specification 
 This is a travel blog design created with HTML and CSS. HTML for structure and CSS for styling. I have used a lot of icons from fontawesome.com and background images from unsplash.com 
