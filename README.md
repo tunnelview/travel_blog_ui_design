@@ -10,8 +10,8 @@ I have deplyed the blog by using vercel.com the link is https://travel-blog-ui-d
 # Background & Motivation 
 This blog design is a sense of achievement, it reflects my own personal journey into the unknown world of coding. At the same time, it is fulfilling to be able to create this design, as it gives a glimpse of my travel experiences. 
 
-# Repo Guidelines
-The code repo is public, obviosuly, that's why you are able to view it. All developers are welcome to read and download the code from my repo. If you do, don't forget to to credit it to "tunnelview". 
+# Repository Guidelines
+The code repository is public, obviosuly, that's why you are able to view it. All developers are welcome to read and download the code from my repository. If you do, don't forget to to credit it to "tunnelview". This repository doesn't have any branches, it only has one main branch. 
 
 # Commercial Guidelines
 I am happy to design and develop similar travel blogs on commercial basis for anyone who is interested. If you have a passion for travelling and jotting down your experiences, I am happy to contribute in your journey. 
