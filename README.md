@@ -27,4 +27,8 @@ The code repository is public, obviosuly, that's why you are able to view it. Al
 
 I am happy to design and develop similar travel blogs on commercial basis for anyone who is interested. If you have a passion for travelling and jotting down your experiences, I am happy to contribute in your journey.
 
+# License
+
+This project is under MIT open source license.
+
 Finally, I welcome you all to "Step Into The Unknown" if you want to try "Metamorphosis - My Way!" :)
